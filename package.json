@@ -1,0 +1,25 @@
+{
+  "name": "csa",
+  "version": "1.0.0",
+  "description": "- Initialize a new Node.js project\r -Add Express, jsonvebtoken, mongoose to it as a dependency\r - Create index. js and write boilerplate code\r - Add route skeleton for user login, signup, purchase a course, sees att courses, sees\r the purchased courses course\r -Add routes for admin login, admin signup. create a course, delete a course, add\r course content.\r -Define the schema for User, Admin. Course, Purchase\r - Add a database (mongodb), use dotenv to store the database connection string\r Add middlewares for and admin auth\r - Complete the routes for login. signup, purchase a course, see course (Extra\r points - Use express routing to better structure your routes)\r - Create the frontend\r - Good to haves\r Use cookies instead of\r 1\r JWT for auth",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.1",
+    "nodemon": "^3.1.10",
+    "zod": "^3.24.4"
+  }
+}
